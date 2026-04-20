@@ -1,0 +1,86 @@
+{
+    "name": "generic_gamepad",
+    "axis": [
+        {
+            "type": "axis",
+            "value": "x",
+            "divisor": 128
+        },
+        {
+            "type": "axis",
+            "value": "y",
+            "divisor": 128
+        },
+        {
+            "type": "axis",
+            "value": "rx",
+            "divisor": 128
+        },
+        {
+            "type": "axis",
+            "value": "ry",
+            "divisor": 128
+        },
+        {
+            "type": "hat",
+            "map": {
+                "2": 1,
+                "3": 1,
+                "4": 1,
+                "6": -1,
+                "7": -1,
+                "8": -1
+            }
+        },
+        {
+            "type": "hat",
+            "map": {
+                "1": 1,
+                "2": 1,
+                "8": 1,
+                "4": -1,
+                "5": -1,
+                "6": -1
+            }
+        }
+    ],
+
+    "button": [
+        {
+            "type": "button", "value": 1
+        },
+        {
+            "type": "button", "value": 2
+        },
+        {
+            "type": "button", "value": 5
+        },
+        {
+            "type": "button", "value": 4
+        },
+        {
+            "type": "button", "value": 7
+        },
+        {
+            "type": "button", "value": 8
+        },
+        {
+            "type": "empty"
+        },
+        {
+            "type": "empty"
+        },
+        {
+            "type": "button", "value": 11
+        },
+        {
+            "type": "button", "value": 12
+        },
+        {
+            "type": "button", "value": 15
+        },
+        {
+            "type": "button", "value": 14
+        }
+    ]
+}
